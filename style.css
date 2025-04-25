@@ -5,7 +5,7 @@ body {
     font-family: arial;
     background-image: url(img/Monnie.jpg);
     background-size: 1400px;
-    background-repeat:no-repeat
+    background-repeat:
 
 }
 #all-contents {
@@ -28,10 +28,10 @@ nav {
 h1 {
     display: flex;
     align-items: center;
-    color: black;
+    color: white;
     flex: 1;
     margin: 0;
-    text-shadow: black 5px 5px 5px;
+    text-shadow: gold 5px 5px 5px;
 }
 #nav-ul {
     list-style-image: none;
@@ -71,7 +71,7 @@ main {
     flex: 1;
     padding: 15px;
     color: black;
-    text-shadow: gold 0px 0px 5px;
+    text-shadow: gold 5px 5px 5px;
     
 }
 
@@ -85,11 +85,11 @@ main {
 h2, h3 {
     margin: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-   color: gold
+   color: white;
 }
          /* portfolio styles */
          .content h1 {
-            color: black;
+            color: white;
         }
 
         #portfolio {
@@ -110,5 +110,5 @@ h2, h3 {
 
         #portfolio a {
             text-decoration: none;
-            color: gold;
+            color: white;
         }
